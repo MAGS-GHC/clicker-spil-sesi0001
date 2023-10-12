@@ -1,0 +1,150 @@
+h1 {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+body {
+    background-color: rgb(244, 240, 240);
+
+}
+
+
+#Shop {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    top: 5px;
+    right: 120px;
+    position: absolute;
+
+}
+
+
+#cookieValue {
+    padding: 1px;
+    top: 120px;
+    right: 205px;
+    position: absolute;
+
+}
+
+
+#cookiePrice {
+    padding: 1px;
+    top: 240px;
+    right: 85px;
+    position: absolute;
+
+}
+
+
+#cookieCounter {
+    top: 180px;
+    left: 600px;
+    position: absolute;
+
+}
+
+
+#cookieCountDisplay {
+    top: 200px;
+    left: 750px;
+    position: absolute;
+
+}
+
+
+#cookiePurchases {
+    top: 205px;
+    right: 35px;
+    position: absolute;
+
+}
+
+
+#buyCookies {
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(244, 128, 244);
+    top: 200px;
+    right: 130px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+#cookieButton {
+    cursor: pointer;
+    width: 20%;
+    top: 250px;
+    left: 600px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+#autoClicker {
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(15, 239, 15);
+    top: 20px;
+    left: 100px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+#resetButton {
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(233, 60, 34);
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+#cookieMonster {
+    width: 6%;
+    top: 165px;
+    right: 200px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+#background {
+    margin-top: -150px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width: 80%; 
+    height: 110vh;
+    background-image: url(https://thedailyguardian.com/wp-content/uploads/2022/11/rainbow.jpg);
+    z-index: -1;
+
+}
+
+
+#background2 {
+    margin-top: -150px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width: 20%;
+    height: 110vh;
+    float: right;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Rainbow-gradient-fully-saturated.svg/1200px-Rainbow-gradient-fully-saturated.svg.png);
+    z-index: -1;
+
+}
