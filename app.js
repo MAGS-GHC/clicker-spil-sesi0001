@@ -24,17 +24,17 @@ function cookieCountDisplay() {
 
 function doubleCookies() {
     if (cookieCount === 15) {
-        let userAnswer = prompt("Get two cookies every click if you can tell me what the blue stuffed toy eating cookies on this website is called. Aswer:");
+        let userAnswer = prompt("Get two cookies every click if you can tell me what the blue stuffed toy eating cookies on this website is called. Answer:");
         let answer = "Cookie Monster";
 
         userAnswer = userAnswer.toLowerCase();
         answer = answer.toLowerCase();
 
         if (userAnswer === answer) {
-            alert("Correct! Enjoy you 2 cookies per click"); 
+            alert("Correct! Enjoy your 2 cookies per click"); 
             access = true;
         } else {
-            alert("Wrong! You will have to only enyoy the 1 cookie per click");
+            alert("Wrong! You will have to only enjoy the 1 cookie per click");
         }
     }
 }
